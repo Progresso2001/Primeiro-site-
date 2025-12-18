@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+:root{
+    --font1: Verdana, Geneva, Tahoma, sans-serif;
+    --font2: "Passion One", cursive;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    min-height: 30vh;
+    background-color: darkgray;
+    font-family: var(--font2);
+}
+header{
+    background-color: rgba(0, 0, 0, 0.742);
+    color: white;
+    text-align: center;
+}
+header > h1{
+    padding: 5px;
+    font-variant:small-caps;
+    font-family: var(--font2);
+    font-size: 5vw;
+    
+    
+}
+header > p > a{
+    
+    color: #0066CC;
+    text-decoration: none;
+    font-weight: bolder;
+    
+}
+header > p >a:hover{
+    text-decoration: underline;
+    color: #0000FF;
+}
+header > img{
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: auto;
+}
+section{
+    padding-top:10vh;
+    padding-bottom:10vh ;
+    line-height: 2em;
+    font-family: var(--font2);
+    font-size: 1vw;
+}
+#nome{
+    color: rgba(222, 184, 135, 0.608);
+}
+section > h2{
+    padding: 2em;
+    font-size: 2.5vw;
+}
+section > p{
+    padding: 2em;
+    font-size: 1.5vw;
+    
+}
+
+section.novo{
+    background-color: white;
+    color: black;
+}
+section.imagem{
+    background-color: rgb(51, 51, 51);
+    color: white;
+    box-shadow: 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+    background-attachment: fixed;
+
+}
+section.novo > p{
+    background-color:rgba(0, 0, 0, 0.514) ;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 50px;
+    color: black;
+    padding: 10px;
+    font-size: 1.2em;
+    text-align: center;
+    
+}
+section.imagem > h2{
+    font-size: 20px;
+    text-align: center;
+    font-size: 1.5vw;
+}
+section.imagem > p{
+    background-color: rgba(0, 0, 0, 0.514);
+    display: inline-block;
+    padding: 10px;
+    text-shadow: 1px 1px 0px black;
+    border-radius:5px ;
+    margin: 50px;
+    text-align: center;
+    font-size: 1.2em;
+
+}
+section#img01{
+    background-image: url('../imagens/imagem001.jpg');
+    background-position: center;
+}
+section#img02{
+    background-image: url('../imagens/imagem002.jpg');
+    background-position: center;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    line-height: 2em;
+    
+}
+footer > p{
+    font-size: 30px;
+    font-family: var(--font2);
+}
