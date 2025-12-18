@@ -37,10 +37,20 @@ header > p > a{
     font-weight: bolder;
     
 }
+header > p > a:focus{
+    text-decoration: none;
+    background-color:red;
+}
 header > p >a:hover{
     text-decoration: underline;
     color: #0000FF;
 }
+header > p > a:active{
+    text-decoration: none;
+    background:#6900ff;
+    color: #cdfeaa;
+}
+
 header > img{
     position: relative;
     top: 0;
