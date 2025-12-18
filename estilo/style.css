@@ -118,11 +118,14 @@ section.imagem > p{
 }
 section#img01{
     background-image: url('../imagens/imagem001.jpg');
-    background-position: center;
+    background-position: right center;
+    background-size: cover;
+
 }
 section#img02{
     background-image: url('../imagens/imagem002.jpg');
-    background-position: center;
+    background-position: right center;
+    background-size: cover;
 }
 
 footer{
