@@ -31,7 +31,7 @@ header > h1{
     
 }
 header > p{
-    font-size:2vw;
+    font-size:3vw;
     font-family: var(--font2);
 }
 header > p > a{
@@ -69,7 +69,7 @@ section{
     padding-left: 30px;
     line-height: 2em;
     font-family: var(--font2);
-    font-size: 2vw;
+    font-size: 3vw;
 }
 #nome{
     color: rgba(222, 184, 135, 0.608);
