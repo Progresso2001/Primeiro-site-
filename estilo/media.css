@@ -1,0 +1,22 @@
+@media screen and (max-width:769px){
+    body{
+        background-color: lightcoral;
+    }
+   header{
+    flex-direction: column;
+   }
+   section{
+    flex-direction: column;
+   }
+   h2{
+    font-size: 20px;
+   }
+   p{
+    font-size: 30px;
+    margin: auto;
+   }
+   footer{
+    font-size:30px;
+   }
+    
+}
