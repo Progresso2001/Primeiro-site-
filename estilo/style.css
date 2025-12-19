@@ -13,7 +13,7 @@
 }
 
 html, body{
-    min-height: 30vh;
+    min-height: 100vh;
     background-color: darkgray;
     font-family: var(--font2);
 }
@@ -23,18 +23,23 @@ header{
     text-align: center;
 }
 header > h1{
-    padding: 5px;
+    padding: 50px;
     font-variant:small-caps;
     font-family: var(--font2);
-    font-size: 5vw;
+    font-size: 10vw;
     
     
+}
+header > p{
+    font-size:2vw;
+    font-family: var(--font2);
 }
 header > p > a{
     
     color: #0066CC;
     text-decoration: none;
     font-weight: bolder;
+    font-size: 3.5vw;
     
 }
 header > p > a:focus{
@@ -61,9 +66,10 @@ header > img{
 section{
     padding-top:10vh;
     padding-bottom:10vh ;
+    padding-left: 30px;
     line-height: 2em;
     font-family: var(--font2);
-    font-size: 1vw;
+    font-size: 2.5vw;
 }
 #nome{
     color: rgba(222, 184, 135, 0.608);
