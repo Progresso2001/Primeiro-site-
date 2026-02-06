@@ -43,4 +43,4 @@ Mensagem: Vamos conectar e trocar experiências em programação!
 
 "A lei da atracção guia quem está ligado às tecnologias!" 🚀
 
-Gostarias que eu adicione badges do GitHub, uma seção de licença, ou torne mais técnico/focado em recruiters?
+
